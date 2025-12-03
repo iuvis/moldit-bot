@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start:dev": "tsx watch --env-file=.env src/bot.ts ",
-    "start": "tsx --env-file=.env src/bot.ts "
+    "prod": "tsx src/bot.ts "
   },
   "keywords": [],
   "author": "",
